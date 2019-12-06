@@ -63,4 +63,17 @@ const data = [
 ### Part Three: NYC Population by Borough
 
 1. Build a new component, `<PopulationByBorough />`, that uses the `<VictoryStack />` component and the data in `/src/Data/PopulationByBorough.js` to show the overall NYC Population by Year broken down by borough.
+2. Change the theme of the `<VictoryStack />` component.
+3. Update the `<PopulationByBorough />` component to use the data in `/src/Data/HistoricalPopulation.js` instead.
+   1. Hint: you can use the `Object.keys()` function to get a list of all property names, which for this dataset are the years. 
 
+### Part Four: Stretch
+1. Use the data in `/src/Data/HistoricalPopulation.js` to build a series of `<VictoryPie />` charts (one for each year) showing the population breakdown of New York City by borough.
+2. Use the data in `/src/Data/PovertyByAgeGender.js` to build one or more data visualizations.
+   1. Consider how to use `.map()` to iterate over the dataset.
+   2. Consider how to use `.filter()` to limit the dataset to data which meet particular criteria.
+
+### Source(s)
+- NYC Population data from [US Census Bureau](https://www.census.gov/glossary/#term_Populationestimates)
+- NYC Population by Borough data from [NYC Open Data](https://data.cityofnewyork.us/City-Government/New-York-City-Population-by-Borough-1950-2040/xywu-7bv9)
+- Poverty by Age/Gender data from [datausa.io](https://datausa.io/profile/geo/new-york-ny)
