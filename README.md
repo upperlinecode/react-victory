@@ -62,5 +62,5 @@ const data = [
 
 ### Part Three: NYC Population by Borough
 
-1. Build a new component, `<PopulationByBorough />`, that uses the `<VictoryStack />` component and the data in `/Data/PopulationByBorough.js` to show the overall NYC Population by Year broken down by borough.
+1. Build a new component, `<PopulationByBorough />`, that uses the `<VictoryStack />` component and the data in `/src/Data/PopulationByBorough.js` to show the overall NYC Population by Year broken down by borough.
 
