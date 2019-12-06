@@ -7,7 +7,7 @@ const App = () => {
   component.render = () => {
     return (
       <div className="App">
-        <h1>Hello React</h1>
+        <h1>Victory in React</h1>
       </div>
     );
   }
