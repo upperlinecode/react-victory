@@ -19,7 +19,7 @@ In this lab, you'll build a dashboard to display several data visualizations rep
 
 1. Install the Victory library using `npm install victory`.
 
-### Part Two: Add Data
+### Part Two: NYC Overall Population
 
 1. Add a new component called `<Population />` to `App.js`, and add a new `.js` file for the component.
 2. Initialize the component with the necessary `import` and `export` statements, including for the Victory library.
@@ -60,5 +60,7 @@ const data = [
 7. Import and add the `<VictoryAxis />` component (2 of them!), and set props to add `tickValues` and `tickFormatting`. Add `domainPadding` to the `<VictoryChart />` component to better arrange the y-axis.
 8. Import and add the `<VictoryTheme />` component, and add a `theme` prop to the `<VictoryChart />` component.
 
+### Part Three: NYC Population by Borough
 
-<!--9. Import and add the `<VictoryStack />` component, and update your component according to the [Getting Started Guide](https://formidable.com/open-source/victory/docs) to build the stacked bar chart shown above.-->-->
+1. Build a new component, `<PopulationByBorough />`, that uses the `<VictoryStack />` component and the data in `/Data/PopulationByBorough.js` to show the overall NYC Population by Year broken down by borough.
+
