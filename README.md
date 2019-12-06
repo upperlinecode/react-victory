@@ -35,9 +35,9 @@ const data = [
 ];
 ```
 
-4. Import the `<VictoryBar />` component and use it in the `<Earnings />`` component.
+4. Import the `<VictoryBar />` component and use it in the `<Earnings />` component.
 5. Add accessor props to the `<VictoryBar />` component, including for `data`, `x`, and `y` values.
 6. Wrap the `<VictoryBar />` component with a `<VictoryChart />` component to provide axes, and don't forget to `import` VictoryChart, too.
-7. Import and add the `<VictoryAxis />` component (x 2!), and set props to add `tickValues` and `tickFormatting`. Add `domainPadding` to the `<VictoryChart />`` component to better arrange the y-axis.
+7. Import and add the `<VictoryAxis />` component (x 2!), and set props to add `tickValues` and `tickFormatting`. Add `domainPadding` to the `<VictoryChart />` component to better arrange the y-axis.
 8. Import and add the `<VictoryTheme />` component, and add a `theme` prop to the `<VictoryChart />` component.
 9. Import and add the `<VictoryStack />` component, and update your component according to the [Getting Started Guide](https://formidable.com/open-source/victory/docs) to build the stacked bar chart shown above.
