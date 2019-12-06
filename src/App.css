@@ -1,3 +1,48 @@
 .App {
   text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Banner {
+    background-image: url('./img/nyc-skyline.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 25vh;
+    margin: 0;
+}
+
+.Footer {
+    min-height: 10vh;
+    margin: 0;
+    background-color: #5959e0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+.FooterContent {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+.FooterContent h4 {
+    font-size: 1.25em;
+}
+.FooterContent ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2em;
+}
+.FooterContent li {
+    margin: 0 0.5em;
+    display: inline;
+}
+.FooterContent a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px dotted white;
 }
