@@ -65,7 +65,6 @@ const data = [
 1. Build a new component, `<PopulationByBorough />`, that uses the `<VictoryStack />` component and the data in `/src/Data/PopulationByBorough.js` to show the overall NYC Population by Year broken down by borough.
 2. Change the theme of the `<VictoryStack />` component.
 3. Update the `<PopulationByBorough />` component to use the data in `/src/Data/HistoricalPopulation.js` instead.
-   1. Hint: you can use the `Object.keys()` function to get a list of all property names, which for this dataset are the years. 
 
 ### Part Four: Stretch
 1. Use the data in `/src/Data/HistoricalPopulation.js` to build a series of `<VictoryPie />` charts (one for each year) showing the population breakdown of New York City by borough.
