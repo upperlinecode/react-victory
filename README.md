@@ -24,7 +24,7 @@ In this lab, you'll build a dashboard to display several data visualizations rep
 1. Add a new component called `<Population />` to `App.js`, and add a new `.js` file for the component.
 2. Initialize the component with the necessary `import` and `export` statements, including for the Victory library.
    1. Check the [Getting Started Guide](https://formidable.com/open-source/victory/docs) if you need help.
-3. Add the following data to the `<Population />` component. 
+3. Add the following data to the `<Population />` component (NYC Population by Year (in millions)). 
 
 ```javascript
 const data = [
@@ -71,6 +71,7 @@ const data = [
 2. Use the data in `/src/Data/PovertyByAgeGender.js` to build one or more data visualizations.
    1. Consider how to use `.map()` to iterate over the dataset.
    2. Consider how to use `.filter()` to limit the dataset to data which meet particular criteria.
+> Note: You may need to edit the data file in order to make it usable with React; it has not been prepared for you.
 
 ### Source(s)
 - NYC Population data from [US Census Bureau](https://www.census.gov/glossary/#term_Populationestimates)
