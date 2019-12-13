@@ -1,6 +1,6 @@
 # Lab: Demographics Dashboard
 
-![a couple data visualizations made in this lab]()
+![NYC Demographics Dashboard](./nyc-demographics-dashboard.png)
 
 ## The Goal
 
