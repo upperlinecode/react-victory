@@ -24,7 +24,7 @@ In this lab, you'll build a dashboard to display several data visualizations rep
 1. Add a new component called `<Population />` to `App.js`, and add a new `.js` file for the component.
 2. Initialize the component with the necessary `import` and `export` statements, including for the Victory library.
    1. Check the [Getting Started Guide](https://formidable.com/open-source/victory/docs) if you need help.
-3. Add the following data to the `<Population />` component. 
+3. Add the following data to the `<Population />` component (NYC Population by Year (in millions)). 
 
 ```javascript
 const data = [

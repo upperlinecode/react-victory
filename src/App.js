@@ -12,7 +12,9 @@ const App = () => {
         <Banner />
         <h1>NYC Demographics Dashboard</h1>
         
-        <p>Add visualizations here</p>
+        <div className="visCard">
+          <p>Add visualizations here</p>
+        </div>
         
         <Footer />
       </div>
