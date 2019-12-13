@@ -71,6 +71,7 @@ const data = [
 2. Use the data in `/src/Data/PovertyByAgeGender.js` to build one or more data visualizations.
    1. Consider how to use `.map()` to iterate over the dataset.
    2. Consider how to use `.filter()` to limit the dataset to data which meet particular criteria.
+> Note: You may need to edit the data file in order to make it usable with React; it has not been prepared for you.
 
 ### Source(s)
 - NYC Population data from [US Census Bureau](https://www.census.gov/glossary/#term_Populationestimates)

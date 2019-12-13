@@ -13,7 +13,7 @@ const App = () => {
         <h1>NYC Demographics Dashboard</h1>
         
         <div className="visCard">
-          <p>Add visualizations here</p>
+          <p>Add a visualization here</p>
         </div>
         
         <Footer />
