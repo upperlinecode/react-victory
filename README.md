@@ -23,7 +23,7 @@ In this lab, you'll build a dashboard to display several data visualizations rep
 
 1. Add a new component called `<Population />` to `App.js`, and add a new `.js` file for the component.
 2. Initialize the component with the necessary `import` and `export` statements, including for the Victory library.
-   1. Check the [Getting Started Guide](https://formidable.com/open-source/victory/docs) if you need help.
+   1. You'll probably need to consult the [Getting Started Guide](https://formidable.com/open-source/victory/docs) for help on syntax.
 3. Add the following data to the `<Population />` component (NYC Population by Year (in millions)). 
 
 ```javascript
@@ -55,7 +55,7 @@ const data = [
 ```
 
 4. Import the `<VictoryBar />` component and use it in the `<Population />` component.
-5. Add accessor props to the `<VictoryBar />` component, including for `data`, `x`, and `y` values.
+5. Add props to the `<VictoryBar />` component, including for `data`, `x`, and `y` values.
 6. Wrap the `<VictoryBar />` component with a `<VictoryChart />` component to provide axes, and don't forget to `import` VictoryChart, too.
 7. Import and add the `<VictoryAxis />` component (2 of them!), and set props to add `tickValues` and `tickFormatting`. Add `domainPadding` to the `<VictoryChart />` component to better arrange the y-axis.
 8. Import and add the `<VictoryTheme />` component, and add a `theme` prop to the `<VictoryChart />` component.
