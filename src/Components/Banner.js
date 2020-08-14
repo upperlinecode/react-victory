@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Banner = () => {
+function Banner() {
   return (
     <div className="Banner"></div>
-  )
+  );
 }
 
 export default Banner;
